@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    font-family: "Microsoft YaHei", SimHei, "微软雅黑", "黑体";
+}
+
+h2, h3 {
+    font-weight: normal;
+}
+
+body {
+    /*background: linear-gradient(to right, rgba(235, 90, 190, 0.7), rgba(235, 202, 150, 0.7));*/
+
+}
+
+.container {
+    width: 450px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+/*.reg-top{*/
+/*background:url(11.jpg) repeat-x center top;*/
+/*height:109px;*/
+/*}*/
+.reg-box {
+    height: 430px;
+    background: #ffe;
+    border: 1px #81add9 solid;
+    border-radius: 15px;
+    opacity: .8;
+}
+
+.reg-main {
+    width: 400px;
+    margin-left: 25px;
+    padding: 1px;
+    /*border: 1px solid red;*/
+    margin-top: 20px;
+}
+
+.reg-main h3 {
+    height: 25px;
+    line-height: 25px;
+    border-left: 3px #59AfE4 solid;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #666;
+    margin-left: 35%;
+}
+
+.reg-form {
+    border-top: 1px #d7d7d7 solid;
+    margin-top: 25px;
+}
+
+.reg-input {
+    height: 36px;
+    line-height: 36px;
+    margin-top: 18px;
+}
+
+.reg-input label {
+    float: left;
+    width: 80px;
+    padding-right: 8px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.reg-input label i {
+    color: red;
+    margin-right: 3px;
+    font-style: normal;
+}
+
+.reg-input input {
+    float: left;
+    width: 280px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    padding: 8px;
+    border: 1px #a8d2e7 solid;
+    border-radius: 8px;
+    outline: none;
+}
+
+.reg-input span {
+    float: left;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+#submit {
+    width: 180px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 110px;
+    border: 0 none;
+    background: red;
+    font-family: "Microsoft YaHei", SimHei, "微软雅黑", "黑体";
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    opacity: .8;
+}
+
+.p {
+    text-align: center;
+
+}
+
+.p1 {
+    text-align: center;
+}
+
